@@ -39,6 +39,11 @@
 		return $id;
 	}
 
+	function getProfilePic() {
+		$id =getStudentId();
+		
+		return "/uploads/" . $id . ".jpg";
+	}
 
 	if(isset($_POST["full_name"])) {
 

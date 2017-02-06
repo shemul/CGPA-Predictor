@@ -1,9 +1,9 @@
  <?php
 	function get_db_connection(){
-		$servername = "localhost:3306";
-		$username = "root";
-		$password = "base64";
-		$dbname = "cgpa_forecast";
+		$servername = $IP;
+		$username = "shemul";
+		$password = "";
+		$dbname = "c9";
 
 		// Create connection
 		$conn = mysqli_connect($servername, $username, $password, $dbname);

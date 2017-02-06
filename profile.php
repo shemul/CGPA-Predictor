@@ -33,7 +33,7 @@
 		   	<div>
 
 				<h3>PROFILE PIC</h3>
-				<img src="http://www2.mmu.ac.uk/media/mmuacuk/content/images/health-professions/student-profile-simone-bianchi-piantini.jpg" width="250" height="250"><br>
+				<img src="<?php echo getProfilePic(); ?>" width="250" height="250"><br>
 				<h3>CHANGE DP</h3>
 			 	<input id="file" class="inp-text" name=""  type="file" size="50" /><br/>
 

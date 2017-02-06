@@ -8,7 +8,7 @@
   <div class="content">
       <div class="div1">
         
-        <p id="train">Trained Data </p>
+        <p id="train">Train Data </p>
         <p style="text-align: center;"><?php getTotalTrained() ?> </p>
 
       </div>

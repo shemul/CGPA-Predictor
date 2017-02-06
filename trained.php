@@ -6,7 +6,7 @@ require_once $_SERVER['DOCUMENT_ROOT'] . '/database/service/dashboard_service.ph
 <article>
 	<a href="add_into_train.php"><button id="btnadd">ADD NEW ROW</button></a>
 	<button id="btntrain">TRAIN AGAIN</button>
-	<button id="btntrain">IMPORT CSV</button>
+	
   	<h1>Trained Data - <?php getTotalTrained(); ?></h1>
 
   	
